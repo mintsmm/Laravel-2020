@@ -1,0 +1,143 @@
+.navbar-laravel {
+    background-color: #fff;
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.15);
+    .dropdown-menu {
+        margin-top: 8px;
+        border: none;
+        border-radius: 0;
+        padding-top: 0;
+        padding-bottom: 0;
+        border-top: #ff2d20 4px solid;
+        .dropdown-item {
+            padding-top: 10px;
+            padding-bottom: 10px;
+            &:active {
+                background-color: #ff2d20;
+            }
+        }
+    }
+    .navbar-nav {
+        .nav-link {
+            .icon-link {
+                color: #ff2d20!important;
+            }
+            &:hover {
+                color: #ff2d20;
+            }
+        }
+    }
+    .form-inline {
+        .btn {
+            border-radius: 0;
+        }
+        .form-control {
+            border-radius: 0;
+        }
+        .btn-laravel {
+            color: #fff;
+            background-color : #ff2d20;
+        }
+    }
+}
+
+@media (max-width: 768px){
+    .navbar-laravel {
+        background-color: #fff;
+        box-shadow: 0 .5rem 1rem rgba(0,0,0,.15);
+        .navbar-toggler {
+            border: none;
+            &:focus {
+                outline-style: none;
+            }
+        }
+        .dropdown-menu {
+            margin-top: 8px;
+            border: none;
+            border-radius: 0;
+            padding-top: 0;
+            padding-bottom: 0;
+            border-top: #ff2d20 4px solid;
+            box-shadow: 0 .5rem 1rem rgba(0,0,0,.15);
+            .dropdown-item {
+                padding-top: 10px;
+                padding-bottom: 10px;
+                &:active {
+                    background-color: #ff2d20;
+                }
+            }
+        }
+        .navbar-nav {
+            .nav-link {
+                .icon-link {
+                    color: #ff2d20!important;
+                }
+                &:hover {
+                    color: #ff2d20;
+                }
+            }
+        }
+        .form-inline {
+            .btn {
+                border-radius: 0;
+            }
+            .form-control {
+                border-radius: 0;
+            }
+            .btn-laravel {
+                color: #fff;
+                background-color : #ff2d20;
+            }
+        }
+    }
+}
+
+@media (max-width: 992px){
+    .navbar-laravel {
+        background-color: #fff;
+        box-shadow: 0 .5rem 1rem rgba(0,0,0,.15);
+        .navbar-toggler {
+            border: none;
+            &:focus {
+                outline-style: none;
+            }
+        }
+        .dropdown-menu {
+            margin-top: 8px;
+            border: none;
+            border-radius: 0;
+            padding-top: 0;
+            padding-bottom: 0;
+            border-top: #ff2d20 4px solid;
+            box-shadow: 0 .5rem 1rem rgba(0,0,0,.15);
+            .dropdown-item {
+                padding-top: 10px;
+                padding-bottom: 10px;
+                &:active {
+                    background-color: #ff2d20;
+                }
+            }
+        }
+        .navbar-nav {
+            .nav-link {
+                .icon-link {
+                    color: #ff2d20!important;
+                }
+                &:hover {
+                    color: #ff2d20;
+                }
+            }
+        }
+        .form-inline {
+            .btn {
+                border-radius: 0;
+            }
+            .form-control {
+                border-radius: 0;
+            }
+            .btn-laravel {
+                color: #fff;
+                background-color : #ff2d20;
+            }
+        }
+    }
+}
